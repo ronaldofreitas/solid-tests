@@ -1,0 +1,21 @@
+pensar em um código desacoplado
+- pensar no software independente das pontas
+- independente de como vamos acessar banco de dados, frameworks para http, apis externas, etc
+- regras de negócio estejam isoladas, isolando o contexto de negócio do mundo externo
+- entidades em nível de aplicação não necessariamente são entidades em nível de banco de dados
+
+frase do Domain Expert:
+Os meus clientes precisam realizar agendamentos
+mas eles não conseguem saber os horários disponíveis que eu tenho
+
+CLIENTES
+AGENDAMENTOS
+HORÁRIOS
+
+casos de uso (funcionalidades da aplicação)
+alguns chamam de 'use-cases', outros de 'services' (aplication services)
+
+
+AS REGRAS DE NEGÓCIO DA APLICAÇÃO PODEM ESTÁ EM DOIS LOCAIS:
+- nas entidades (entites)
+- nos casos de uso (use-case)
